@@ -1,36 +1,37 @@
 package info.binhua.androidddup;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import info.binhua.androidddup.qunaer.QunarSplashActivity;
 
 public class MainActivity extends Activity {
+
+    private ListView lv_main_nav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+        lv_main_nav = (ListView) findViewById(R.id.lv_main_nav);
+        lv_main_nav.setAdapter(new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, this.getResources().getStringArray(R.array.item_nav)));
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        lv_main_nav.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                switch (position){
+                    case 0 :
+                        Intent intent = new Intent(MainActivity.this, QunarSplashActivity.class);
+                        startActivity(intent);
+                        break;
+                }
+            }
+        });
     }
 }

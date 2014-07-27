@@ -4,5 +4,16 @@
     <string name="app_name">AndroidDDUP</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="tab_indicator_order">订单</string>
+    <string name="tab_indicator_mic">语音</string>
+    <string name="tab_indicator_home">首页</string>
+    <string name="tab_indicator_nearby">身边</string>
+    <string name="tab_indicator_self">个人中心</string>
+
+
+    <string-array name="item_nav">
+        <item>防QunarUI界面</item>
+    </string-array>
+
 
 </resources>
