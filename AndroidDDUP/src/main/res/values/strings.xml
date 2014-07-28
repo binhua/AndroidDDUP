@@ -13,7 +13,9 @@
 
     <string-array name="item_nav">
         <item>防QunarUI界面</item>
+        <item>Android常见UI控件</item>
     </string-array>
+
 
 
 </resources>

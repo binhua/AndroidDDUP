@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".qunaer.QunarSplashActivity"/>
         <activity android:name=".qunaer.QunarUIActivity"/>
+        <activity android:name=".basic_ui.AndroidBasicUI"/>
+        <activity android:name=".basic_ui.TextViewTest"/>
     </application>
 
 </manifest>

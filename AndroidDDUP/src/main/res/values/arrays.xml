@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="basicUI_name">
+        <item>TextView和EditView</item>
+        <item>Button和ImageButton</item>
+        <item>Button和ImageButton</item>
+    </string-array>
+
+</resources>

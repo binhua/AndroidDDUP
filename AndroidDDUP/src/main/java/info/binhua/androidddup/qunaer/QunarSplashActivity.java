@@ -8,9 +8,7 @@ import android.widget.RelativeLayout;
 
 import info.binhua.androidddup.R;
 
-/**
- * Created by dell on 2014/7/23.
- */
+
 public class QunarSplashActivity  extends Activity{
 
     private RelativeLayout rl_splash_root;

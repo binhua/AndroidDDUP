@@ -12,9 +12,7 @@ import android.widget.TextView;
 
 import info.binhua.androidddup.R;
 
-/**
- * Created by dell on 2014/7/23.
- */
+
 public class QunarUIActivity extends Activity {
 
     private TabHost tabHost;
