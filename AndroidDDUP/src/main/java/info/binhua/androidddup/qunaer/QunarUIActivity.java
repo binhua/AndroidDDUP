@@ -60,4 +60,5 @@ public class QunarUIActivity extends Activity {
         tab5_tv.setText(R.string.tab_indicator_self);
         tab5_im.setBackgroundResource(R.drawable.qunar_indicator_self_selector);
     }
+
 }

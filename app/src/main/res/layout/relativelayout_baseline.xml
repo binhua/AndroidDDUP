@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text1"
+            android:text="hello"
+            android:background="#aa0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="world"
+            android:background="#00ff00"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text1"
+            android:layout_alignBaseline="@id/text1"/>
+        <RelativeLayout
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text3"
+                android:text="hello"
+                android:background="#aa0000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="world"
+                android:background="#00ff00"
+                android:padding="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text3"
+                android:layout_alignBaseline="@id/text3"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+        <TextView
+            android:text="hello"
+            android:background="#00ff00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="hello"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#aa0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="OK"
+            android:layout_toEndOf="@+id/btn2"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/btn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="OK2"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp" />
+
+        </RelativeLayout>
+
+</RelativeLayout>
