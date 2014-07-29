@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">锁屏管理</string>
+    <string name="app_shortcut_name">QuickLock_Shortcut</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sample_device_admin">一键锁屏</string>
+    <string name="sample_device_admin_description">真正纯绿色的一键锁屏应用</string>
+
+</resources>

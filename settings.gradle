@@ -1,1 +1,1 @@
-include ':AndroidDDUP', ':app'
+include ':AndroidDDUP', ':app', ':quicklock'

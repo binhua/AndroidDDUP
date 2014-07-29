@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidDDUP.iml" filepath="$PROJECT_DIR$/AndroidDDUP.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidDDUP/AndroidDDUP-AndroidDDUP.iml" filepath="$PROJECT_DIR$/AndroidDDUP/AndroidDDUP-AndroidDDUP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quicklock/quicklock.iml" filepath="$PROJECT_DIR$/quicklock/quicklock.iml" />
     </modules>
   </component>
 </project>
